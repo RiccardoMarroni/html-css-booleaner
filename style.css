@@ -19,6 +19,14 @@ header{
  object-fit: contain;
 }
 
+.autore{
+    color: aqua;
+    display: inline;
+}
+
+.inline{
+    display:inline;
+}
 #titolo{
     font-size: 330%;
     font-family: 'Times New Roman', Times, serif;
@@ -27,10 +35,9 @@ header{
 }
 
 .foto{
-
+    width: 100%;
     text-align: center;
-    width: 80%;
-    margin: 0 auto;
+    object-fit: contain;
 }
 
 .descrizione{
@@ -41,10 +48,20 @@ header{
     text-align: left;
     width: 80%;
     margin: 0 auto;
+    color: white;
 }
 .tabella{
     border-style: hidden;
     background-color: rgb(94, 226, 243);
     width: 80%;
     margin: 0 auto;
+}
+
+.sottileneatura{
+    background-color: yellow;
+}
+
+.ordine-foto{
+    display: block;
+    
 }
