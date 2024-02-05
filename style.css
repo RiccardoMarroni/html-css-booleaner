@@ -1,0 +1,36 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+header{
+    background-color: deepskyblue;
+    background-image:url('img/pattern.png');
+    background-size: auto;
+    background-repeat: repeat;
+    height:150px;
+    
+
+}
+
+#logo{
+ object-fit: contain;
+}
+
+#titolo{
+    font-size: 330%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.foto{
+
+    text-align: center;
+}
+
+.descrizione{
+    margin:0%;
+}
