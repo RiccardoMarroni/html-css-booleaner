@@ -1,6 +1,5 @@
 body{
-    width: 80%;
-    margin: 0 auto;
+    
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -23,14 +22,29 @@ header{
 #titolo{
     font-size: 330%;
     font-family: 'Times New Roman', Times, serif;
-    
+    width: 80%;
+    margin: 0 auto;
 }
 
 .foto{
 
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .descrizione{
     margin:0%;
+}
+.titolo-tabella{
+    background-color: cyan;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+.tabella{
+    border-style: hidden;
+    background-color: rgb(94, 226, 243);
+    width: 80%;
+    margin: 0 auto;
 }
